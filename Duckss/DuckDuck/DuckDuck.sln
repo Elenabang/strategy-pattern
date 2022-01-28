@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuck", "DuckDuck.csproj", "{874B9598-DD53-48B3-BC15-FCDC69DB8D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrarySS", "..\LibrarySS\LibrarySS.csproj", "{1384BA42-1BF2-4471-A7CE-66A1043ADED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874B9598-DD53-48B3-BC15-FCDC69DB8D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874B9598-DD53-48B3-BC15-FCDC69DB8D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874B9598-DD53-48B3-BC15-FCDC69DB8D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874B9598-DD53-48B3-BC15-FCDC69DB8D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1384BA42-1BF2-4471-A7CE-66A1043ADED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1384BA42-1BF2-4471-A7CE-66A1043ADED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1384BA42-1BF2-4471-A7CE-66A1043ADED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1384BA42-1BF2-4471-A7CE-66A1043ADED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DA48DA-444A-4383-86C9-BE05A1C5A25E}
+	EndGlobalSection
+EndGlobal
