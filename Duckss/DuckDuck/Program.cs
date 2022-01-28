@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibrarySS;
 
 namespace DuckDuck
 {
@@ -12,14 +13,24 @@ namespace DuckDuck
         {
             Duck mallardduck = new MallardDuck();
             Duck redheadduck = new RedheadDuck();
+            Duck decoyduck = new DecoyDuck();
+            Duck rubberduck = new RubberDuck();
 
-            Duck[] duck = new Duck[] { mallardduck, redheadduck };
+            Duck[] ducks = new Duck[] { mallardduck, redheadduck, decoyduck, rubberduck };
 
-            for (int i = 0; i < duck.Length; i++)
+            for (int i = 0; i < ducks.Length; i++)
             {
-                Console.WriteLine(duck[i].Quack());
-                Console.WriteLine(duck[i].Swim());
-                Console.WriteLine(duck[i].Display());
+                Console.WriteLine(ducks[i].Swim());
+                Console.WriteLine(ducks[i].Display());
+                if (ducks[i] is IFlyable)
+                {
+                    Console.WriteLine((ducks[i] as IFlyable).Fly());
+                }
+                if (ducks[i] is IQuackable)
+                {
+                    Console.WriteLine((ducks[i] as IQuackable).Quack());
+                }
+                Console.WriteLine();
             }
 
             Console.ReadKey();

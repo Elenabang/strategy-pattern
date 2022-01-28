@@ -1,13 +1,13 @@
-﻿using LibrarySS;
+﻿using DuckDuck;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DuckDuck
+namespace LibrarySS
 {
-    public class MallardDuck : Duck, IFlyable, IQuackable
+    public class RubberDuck : Duck, IQuackable
     {
         public override string Display()
         {
@@ -16,10 +16,6 @@ namespace DuckDuck
         public string Quack()
         {
             return "Quackable" + " " + this.GetType();
-        }
-        public string Fly()
-        {
-            return "Flyable" + " " + this.GetType();
         }
     }
 }
